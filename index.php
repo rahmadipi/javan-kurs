@@ -11,7 +11,6 @@
 		$menu="home";
 	}	
 ?>
-
 <html>
 	<head>
 		<title>Kurs</title>
@@ -20,25 +19,7 @@
 		<script src="script/highcharts.js" type="text/javascript"></script>
 		<script src="script/exporting.js"  type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
+		<meta http-equiv="Cache-Control" content="no-cache" />  
 	</head>
 	<body onLoad="fixed()">
 		<div class="logo">
@@ -63,9 +44,11 @@
 		<div class="bersih">&nbsp;</div>
 		<div class="grid">
 			<div class="gr12 konten">
+				<div class=grid>
 				<?php
 				include "$menu.php";
 				?>
+				</div>
 			</div>
 		</div>
 	</body>

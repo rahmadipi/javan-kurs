@@ -6,6 +6,12 @@ body{
 	background:url(../gambar/bg.jpg);
 	background-attachment:fixed;
 }
+table,td,tr{
+  border: 1px solid #ccc;
+}
+td{
+	text-align:center;
+}
 .konten{
 	border-radius:20px;
 	background:white;

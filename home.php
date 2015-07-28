@@ -8,14 +8,12 @@
 					$perintah = "SELECT * FROM bni_terbaru"; 
 					$hasil = mysql_query($perintah); 
 					echo "<table border=1 cellspacing=0 cellpadding=2>";
-					echo "<tr><td><b>nama_bank</b></td> 
-						<td><b>mata_uang</b></td> 
+					echo "<tr><td><b>mata uang</b></td> 
 						<td><b>jual</b></td> 
 						<td><b>beli</b></td> 
 						<td><b>tanggal</b></td></tr>";
 					while ($row = mysql_fetch_array($hasil)) { 
-						printf("<tr> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>", 
-						$row["nama_bank"],
+						printf("<tr> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>",
 						$row["mata_uang"],
 						$row["jual"],
 						$row["beli"],
@@ -35,13 +33,13 @@
 					echo "<table border=1 cellspacing=0 cellpadding=2>";
 					echo "<tr>
 						<td><b>waktu</b></td> 
-						<td><b>mata_uang</b></td> 
-						<td><b>eRate_jual</b></td> 
-						<td><b>eRate_beli</b></td> 
-						<td><b>ttCounter_jual</b></td> 
-						<td><b>ttCounter_beli</b></td> 
-						<td><b>bank_jual</b></td> 
-						<td><b>bank_beli</b></td></tr>";
+						<td><b>mata uang</b></td> 
+						<td><b>e-Rate jual</b></td> 
+						<td><b>e-Rate beli</b></td> 
+						<td><b>TT-Counter jual</b></td> 
+						<td><b>TT-Counter beli</b></td> 
+						<td><b>bank notes jual</b></td> 
+						<td><b>bank notes beli</b></td></tr>";
 					while ($row = mysql_fetch_array($hasil)) { 
 						printf("<tr> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>", 
 						$row["waktu"],
@@ -65,20 +63,35 @@
 					$perintah = "SELECT * FROM mandiri_terbaru"; 
 					$hasil = mysql_query($perintah); 
 					echo "<table border=1 cellspacing=0 cellpadding=2>";
-					echo "<tr><td><b>tanggal</b></td> 
-						<td><b>nama_bank</b></td> 
-						<td><b>mata_uang</b></td> 
-						<td><b>nama_mata_uang</b></td> 
+					echo "<tr><td><b>tanggal</b></td>
+						<td><b>mata uang</b></td>
 						<td><b>beli</b></td> 
 						<td><b>jual</b></td> </tr>";
 					while ($row = mysql_fetch_array($hasil)) { 
-						printf("<tr> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>", 
+						printf("<tr> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> </tr>", 
 						$row["tanggal"],
-						$row["nama_bank"],
 						$row["mata_uang"],
-						$row["nama_mata_uang"],
 						$row["beli"],
 						$row["jual"]); 
+					}
+					echo "</table>";	 
+					?>
+					</center>
+				</div>
+				<div class="bersih">&nbsp;</div>
+				<div class="gr12">
+					<center>
+					<h2><font color=red>Keterangan</font></h2>
+					<?php
+					$perintah = "SELECT * FROM mandiri_terbaru"; 
+					$hasil = mysql_query($perintah); 
+					echo "<table border=1 cellspacing=0 cellpadding=2>";
+					echo "<tr><td><b>singkatan</b></td>
+						<td><b>mata uang</b></td></tr>";
+					while ($row = mysql_fetch_array($hasil)) { 
+						printf("<tr> <td>%s</td> <td>%s</td> </tr>", 
+						$row["mata_uang"],
+						$row["nama_mata_uang"]); 
 					}
 					echo "</table>";	 
 					?>
