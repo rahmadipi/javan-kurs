@@ -19,6 +19,7 @@
 		<script src="script/highcharts.js" type="text/javascript"></script>
 		<script src="script/exporting.js"  type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="gambar/rp.ico"/>
 		<meta http-equiv="Cache-Control" content="no-cache" />  
 	</head>
 	<body onLoad="fixed()">
