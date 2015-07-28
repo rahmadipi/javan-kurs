@@ -23,7 +23,7 @@
 	</head>
 	<body onLoad="fixed()">
 		<div class="logo">
-			<a href='?'><div></div></a>
+			<a href='<?php echo $_SERVER['SCRIPT_NAME']; ?>'><div></div></a>
 		</div>
 		<div class="bersih">&nbsp;</div>
 		<div id=menubar-clone></div>
@@ -32,7 +32,7 @@
 				<?php
 				echo "
 				<ul>
-					<li><a href='?'>Home</a>
+					<li><a href='".$_SERVER['SCRIPT_NAME']."'>Home</a>
 					<li><a href='?menu=BNI'>BNI</a>
 					<li><a href='?menu=BCA'>BCA</a>
 					<li><a href='?menu=Mandiri'>Mandiri</a>
