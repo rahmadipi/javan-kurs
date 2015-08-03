@@ -11,7 +11,7 @@ function filter($nama_bank,$mata_uang,$tanggal_mulai,$tanggal_selesai){
 	$simpan_jual="{name:'$nama_bank-jual',data:[";
 	$simpan_beli="{name:'$nama_bank-beli',data:[";
 	$simpan_tanggal="[";
-	$query="select * from $nama_bank where mata_uang='$mata_uang' and date(tanggal)>=date('$tanggal_mulai') and date(tanggal)<=date('$tanggal_selesai') order by tanggal desc";
+	$query="select * from $nama_bank where mata_uang='$mata_uang' and date(tanggal)>=date('$tanggal_mulai') and date(tanggal)<=date('$tanggal_selesai') order by tanggal";
 	$sql=mysql_query($query);
 	while($hasil=mysql_fetch_array($sql)){
 		$jual=$hasil['jual'];
