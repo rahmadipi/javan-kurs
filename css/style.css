@@ -33,6 +33,7 @@ td{
 	width:100%;height:30px;
 	background:rgba(0,0,0,1);
 	box-shadow:0px 5px 5px 1px black;
+	padding-top:3px;
 }
 .menubar{
 	width:100%;height:30px;
@@ -41,6 +42,7 @@ td{
 	color:white;
 	font-size:19px;
 	z-index:100;
+	padding-top:3px;
 }
 .menubar ul{
 	padding:0px;
