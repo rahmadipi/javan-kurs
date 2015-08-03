@@ -66,7 +66,10 @@
 						renderTo: 'hasil_filter',
 						type: 'line',
 						marginRight: 180,
-						marginBottom: 100
+						marginBottom: 100,
+						zoomType: 'x',
+						panning: true,
+						panKey: 'shift'
 					},
 					title: {
 						text: <?php echo "'Data Kurs Rupiah(Rp) Bank $menu mata uang $mata_uang'"; ?>,
