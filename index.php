@@ -1,5 +1,6 @@
 <?php
 	include "koneksi.php";
+	include "filter.php";
 	$limit="limit 0,5";
 	if (isset($_GET['menu'])){
 		$menu = $_GET['menu'];
@@ -21,6 +22,37 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="shortcut icon" href="gambar/rp.ico"/>
 		<meta http-equiv="Cache-Control" content="no-cache" />  
+		
+		<link type="text/css" href="development-bundle/themes/base/ui.all.css" rel="stylesheet" />
+		<script type="text/javascript" src="development-bundle/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="development-bundle/ui/ui.core.js"></script>
+		<script type="text/javascript" src="development-bundle/ui/ui.datepicker.js"></script>
+		<script type="text/javascript" src="development-bundle/ui/i18n/ui.datepicker-id.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#tgl_awal").datepicker({
+					altFormat : "dd MM yy",
+					changeMonth : true,
+					changeYear : true
+				});
+				$("#tgl_awal").change(function(){
+					$("#tgl_awal").datepicker("option","dateFormat","yy-mm-dd");
+				});
+			});
+		</script>	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#tgl_akhir").datepicker({
+					altFormat : "dd MM yy",
+					changeMonth : true,
+					changeYear : true
+				});
+				$("#tgl_akhir").change(function(){
+					$("#tgl_akhir").datepicker("option","dateFormat","yy-mm-dd");
+				});
+			});
+		</script>		
+		
 	</head>
 	<body onLoad="fixed(),jam()">
 		<div class="logo">
@@ -48,6 +80,9 @@
 			<div class="gr12 konten">
 				<div class=grid>
 				<?php
+				if($menu!='home'){
+					include "filter_form.php";
+				}
 				include "$menu.php";
 				?>
 				</div>

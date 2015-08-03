@@ -1,5 +1,4 @@
 <?php
-/*
 	$host = "localhost";
 	$user = "root";
 	$pass = "";
@@ -14,7 +13,7 @@
 	else{
 		die("Server MySQL tidak terhubung");
 	}
-*/
+/*
 $host = "localhost";
 $user = "root";
 $pass = "yogyakarta1";
@@ -29,4 +28,5 @@ if($rp){
 else{
 	die("Server MySQL tidak terhubung");
 }
+*/
 ?>
