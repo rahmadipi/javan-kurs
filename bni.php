@@ -16,7 +16,8 @@ $(function () {
                 renderTo: 'bni_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Beli Kurs Rupiah(Rp)',
@@ -93,7 +94,8 @@ $(function () {
                 renderTo: 'bni_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Jual Kurs Rupiah(Rp)',
