@@ -26,7 +26,8 @@ $(function () {
                 renderTo: 'bca_ttcounter_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Beli Kurs Rupiah(Rp)',
@@ -103,7 +104,8 @@ $(function () {
                 renderTo: 'bca_ttcounter_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Jual Kurs Rupiah(Rp)',
@@ -180,7 +182,8 @@ $(function () {
                 renderTo: 'bca_erate_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Beli Kurs Rupiah(Rp)',
@@ -257,7 +260,8 @@ $(function () {
                 renderTo: 'bca_erate_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Jual Kurs Rupiah(Rp)',
@@ -334,7 +338,8 @@ $(function () {
                 renderTo: 'bca_banknotes_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Beli Kurs Rupiah(Rp)',
@@ -411,7 +416,8 @@ $(function () {
                 renderTo: 'bca_banknotes_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50
+                marginBottom: 50,
+				zoomType : 'y'
             },
             title: {
                 text: 'Data Jual Kurs Rupiah(Rp)',
