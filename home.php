@@ -1,4 +1,4 @@
-				<div class="gr12">
+
 					<div class="bersih">&nbsp;</div>
 					<div class="gr12 judul">Kurs Terbaru</div>
 					<div class="bersih">&nbsp;</div>
@@ -22,7 +22,6 @@
 					echo "</table></center>";
 					?>
 					</center>
-				</div>
 				<div class="bersih">&nbsp;</div>
 				<div class="gr12">
 					<center>
