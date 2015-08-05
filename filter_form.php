@@ -27,7 +27,7 @@
 			<input type="text" id="tgl_akhir" name="tgl_akhir" class="gr6">
 		</div>
 		<div class="gr1">
-			<input type="submit" value="Filter" name="filter" class="gr12">
+			<input type="submit" value="Filter" name="filter" class="gr12 tombol">
 		</div>
 	</div>
 </form>
