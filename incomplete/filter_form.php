@@ -69,7 +69,11 @@
 						marginBottom: 100,
 						zoomType: 'x',
 						panning: true,
-						panKey: 'shift'
+						panKey: 'shift',
+            borderWidth: 5,
+            borderColor: '#e8eaeb',
+            borderRadius: 0,
+            backgroundColor: '#f7f7f7'
 					},
 					title: {
 						text: <?php echo "'Data Kurs Rupiah(Rp) Bank $menu mata uang $mata_uang'"; ?>,
@@ -79,7 +83,7 @@
 						text: <?php echo "'dari tanggal $tgl_awal sampai $tgl_akhir'"; ?>,
 						x: -20
 					},
-					xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
+					xAxis: {
 						categories:<?php echo $filter_tanggal; ?>
 					},
 					yAxis: {

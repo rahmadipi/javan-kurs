@@ -13,7 +13,7 @@
 				renderTo: 'mandiri_beli',
 				type: 'line',
 				marginRight: 130,
-				marginBottom: 50,
+				marginBottom: 100,
 				zoomType : 'y'
 			},
 			title: {
@@ -24,7 +24,7 @@
 				text: 'Sumber:http://www.bankmandiri.co.id/resource/kurs.asp?row=2',
 				x: -20
 			},
-			xAxis: {
+			xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
 				categories:
 				<?php
 					$simpan="[";
@@ -90,7 +90,7 @@
 				renderTo: 'mandiri_jual',
 				type: 'line',
 				marginRight: 130,
-				marginBottom: 50,
+				marginBottom: 100,
 					zoomType : 'y'
 			},
 			title: {
@@ -102,7 +102,7 @@
 				text: 'Sumber:http://www.bankmandiri.co.id/resource/kurs.asp?row=2',
 				x: -20
 			},
-			xAxis: {
+			xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
 				categories:
 				<?php
 					$simpan="[";

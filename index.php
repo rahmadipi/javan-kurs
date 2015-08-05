@@ -1,7 +1,7 @@
 <?php
 	include "koneksi.php";
 	include "filter.php";
-	$limit="limit 0,5";
+	$limit="limit 0,12";
 	if (isset($_GET['menu'])){
 		$menu = $_GET['menu'];
 		if($menu!="bni"&&$menu!="bca"&&$menu!="mandiri"){
@@ -17,8 +17,10 @@
 		<title>Kurs</title>
 		<script src="script/jquery.min.js" type="text/javascript"></script>
 		<script src="script/script.js" type="text/javascript"></script>
-		<script src="script/highcharts.js" type="text/javascript"></script>
-		<script src="script/exporting.js"  type="text/javascript"></script>
+		<!--script src="script/highcharts.js" type="text/javascript"></script>
+		<script src="script/exporting.js"  type="text/javascript"></script-->
+		<script src="script/stock/highstock.js"  type="text/javascript"></script>
+		<script src="script/stock/exporting.js"  type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="shortcut icon" href="gambar/rp.ico"/>
 		<meta http-equiv="Cache-Control" content="no-cache" />  

@@ -26,7 +26,7 @@ $(function () {
                 renderTo: 'bca_ttcounter_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -37,7 +37,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
@@ -104,7 +104,7 @@ $(function () {
                 renderTo: 'bca_ttcounter_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -115,7 +115,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
@@ -182,7 +182,7 @@ $(function () {
                 renderTo: 'bca_erate_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -193,7 +193,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
@@ -260,7 +260,7 @@ $(function () {
                 renderTo: 'bca_erate_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -271,7 +271,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
@@ -338,7 +338,7 @@ $(function () {
                 renderTo: 'bca_banknotes_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -349,7 +349,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
@@ -416,7 +416,7 @@ $(function () {
                 renderTo: 'bca_banknotes_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -427,7 +427,7 @@ $(function () {
                 text: 'Sumber:http://www.bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";

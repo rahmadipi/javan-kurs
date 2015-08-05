@@ -16,7 +16,7 @@ $(function () {
                 renderTo: 'bni_beli',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -27,7 +27,7 @@ $(function () {
                 text: 'Sumber:http://bni.co.id/informasivalas.aspx',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 					$simpan="[";
@@ -94,7 +94,7 @@ $(function () {
                 renderTo: 'bni_jual',
                 type: 'line',
                 marginRight: 130,
-                marginBottom: 50,
+                marginBottom: 100,
 				zoomType : 'y'
             },
             title: {
@@ -105,7 +105,7 @@ $(function () {
                 text: 'Sumber:http://bni.co.id/informasivalas.aspx',
                 x: -20
             },
-            xAxis: {
+            xAxis: {lineColor: 'red',tickColor: 'red',tickLength: 5,tickWidth: 1,tickPosition: 'outside',
                 categories:
 				<?php
 				$simpan="[";
