@@ -23,7 +23,6 @@
 		<script src="script/stock/exporting.js"  type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="shortcut icon" href="gambar/rp.ico"/>
-		<meta http-equiv="Cache-Control" content="no-cache" />  
 		
 		<link type="text/css" href="development-bundle/themes/base/ui.all.css" rel="stylesheet" />
 		<script type="text/javascript" src="development-bundle/jquery-1.3.2.js"></script>

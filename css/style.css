@@ -5,6 +5,7 @@ body{
 	color:black;
 	background:url(../gambar/bg.jpg);
 	background-attachment:fixed;
+	min-width:620px;
 }
 table,td,tr{
   border: 1px solid #ccc;
@@ -165,7 +166,6 @@ td{
  }
  .grid{
    width:100%;
-   min-width:620px;
    margin:0;
  }
 }
