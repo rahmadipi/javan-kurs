@@ -1,4 +1,4 @@
-#Foreign exchange web scraping
+# Foreign exchange web scraping
 This is a project to convert some of foreign currencies into Rupiah currency based from foreign exchange value on some of Indonesian banks sites using Scrapy framework.
 The Indonesian banks in question are:
 - BCA
