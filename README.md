@@ -1,9 +1,15 @@
-ini adalah proyek konversi beberapa mata uang luar negeri ke mata uang Rupiah berdasarkan nilai kurs dari beberapa bank di indonesia, seperti BCA, BNI, dan Mandiri
+#Foreign exchange web scraping
+This is a project to convert some of foreign currencies into Rupiah currency based from foreign exchange value on some of Indonesian banks sites using Scrapy framework.
+The Indonesian banks in question are:
+- BCA
+- BNI
+- Mandiri
 
--menggunakan Scrapy untuk mengambil data kurs dari bank tersebut
+Requirements:
+- python 2.7
+- Scrapy
 
--script yang diperlukan untuk Scrapy berada di dalam folder scrapy
-
-untuk menggunakan Scrapy:
--install python 2.7
--install Scrapy
+How to use:
+1. install python 2.7
+2. insatall scrapy (you can check the guide from <a href="http://doc.scrapy.org/">here</a>
+3. run scrapy from terminal
