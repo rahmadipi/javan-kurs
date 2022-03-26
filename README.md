@@ -5,11 +5,11 @@ The Indonesian banks in question are:
 - BNI
 - Mandiri
 
-<b>Requirements:</b>
+## Requirements:
 - python 2.7
 - Scrapy
 
-How to use:
+## How to use:
 1. install python 2.7
 2. insatall scrapy (you can check the guide from <a href="http://doc.scrapy.org/">here</a>)
 3. run scrapy from terminal
