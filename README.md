@@ -5,7 +5,7 @@ The Indonesian banks in question are:
 - BNI
 - Mandiri
 
-Requirements:
+<b>Requirements:</b>
 - python 2.7
 - Scrapy
 
