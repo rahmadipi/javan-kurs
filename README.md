@@ -4,12 +4,12 @@ The Indonesian banks in question are:
 - BCA
 - BNI
 - Mandiri
-
+<br/>
 Requirements:
 - python 2.7
 - Scrapy
-
+<br/>
 How to use:
 1. install python 2.7
-2. insatall scrapy (you can check the guide from <a href="http://doc.scrapy.org/">here</a>
+2. insatall scrapy (you can check the guide from <a href="http://doc.scrapy.org/">here</a>)
 3. run scrapy from terminal
