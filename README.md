@@ -12,5 +12,5 @@ The Indonesian banks in question are:
 
 ## How to use:
 1. install python 2.7
-2. insatall scrapy, you can check the guide from [here](http://doc.scrapy.org/)
+2. install scrapy, you can check the guide from [here](http://doc.scrapy.org/)
 3. run scrapy from terminal
